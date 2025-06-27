@@ -1,1 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info p {
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#cartao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cartao {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.cartao:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.pergunta {
+    font-weight: bold;
+}
+
+.resposta {
+    margin-top: 10px;
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+}
